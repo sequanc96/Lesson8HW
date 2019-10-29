@@ -1,0 +1,45 @@
+nav ul.drop {
+    margin: 0% auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    max-width: 100%;
+}
+
+ul.drop a {
+    text-decoration: none;
+}
+ul.drop, ul.drop li {
+    list-style: none;
+    color: #33aa65;
+    display: inline-block;
+    width: 100%;
+}
+ul.drop li {
+    max-width: 1920px;
+    padding: 5px;
+    line-height: 1.3em;
+    background-color: #f0f7f4;
+    width: 30%;
+    /*border: .1px solid #3c493f;
+    border-width: 5px;*/
+}
+ul.drop ul {
+    top: 2em;
+    position: absolute;
+    margin-left: -99999px;
+}
+ul.drop li li {
+    width: 93%;
+}
+ul.drop li:hover {
+    position: relative;
+}
+ul.drop li:hover > ul {
+    margin: -2px -1px 0 -7px;
+    padding-inline: .5px;
+}
+ul.drop ul ul {
+    top: 0;
+    left: 105px;
+    width: 100%;
+}
